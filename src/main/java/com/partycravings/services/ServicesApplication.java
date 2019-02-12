@@ -1,12 +1,12 @@
-package com.twitter.tweetah;
+package com.partycravings.services;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TweetAhApplication {
+public class ServicesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TweetAhApplication.class, args);
+		SpringApplication.run(ServicesApplication.class, args);
 	}
 }
