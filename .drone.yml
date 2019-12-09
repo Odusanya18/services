@@ -1,0 +1,10 @@
+pipeline:
+  build:
+    image: maven:3.6-jdk-11-openj9
+    commands:
+      - mvn test install
+
+  publish:
+    image: drone-services-test
+    repo:  repo.isw.la/drone-services-test
+    tags: [ latest ]
